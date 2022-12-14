@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
+        task3();
     }
 
     public static void task1() {
@@ -24,4 +25,10 @@ public class Main {
         System.out.println("Full name for report : " + fullName.toUpperCase());
     }
 
+    public static void task3() {
+        System.out.println("\nTASK3\n");
+        String fullName = "Иванов Семён Семёнович";
+        fullName = fullName.replace("ё", "е");
+        System.out.println("Full name of coworker is " + fullName);
+    }
 }
